@@ -3,18 +3,18 @@
     public class SnawflakeIdOptions
     {
         /// <summary>
-        /// 群组Id
+        /// Get or set Gourp Id
         /// </summary>
         /// <remarks>
-        /// 可用值范围0~31
+        /// Used to distinguish between different machine groups, Available value range 0~31
         /// </remarks>
-        public long GroupId { get; set; } = default!;
+        public ushort GroupId { get; set; } = default!;
         /// <summary>
-        /// 机器Id
+        /// Get or set Machine Id
         /// </summary>
         /// <remarks>
-        /// 可用值范围0~31
+        /// The serial number of the machine,Available value range 0~31
         /// </remarks>
-        public long MachineId { get; set; } = default!; 
+        public ushort MachineId { get; set; } = default!; 
     }
 }

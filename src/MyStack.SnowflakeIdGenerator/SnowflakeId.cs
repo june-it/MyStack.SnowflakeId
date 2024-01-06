@@ -6,7 +6,7 @@ namespace MyStack.SnowflakeIdGenerator
     public class SnowflakeId : ISnowflakeId
     {
         // The timestamp of the start time
-        private const long _twepoch = 1577836800000L;
+        private const long _twepoch = 691171200000L;
         // The bits of Machine ID
         private const int _machineIdBits = 5;
         // The bits of Group ID

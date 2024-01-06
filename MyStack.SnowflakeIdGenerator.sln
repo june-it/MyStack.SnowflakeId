@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStack.SnowflakeIdGenerator", "src\MyStack.SnowflakeIdGenerator\MyStack.SnowflakeIdGenerator.csproj", "{E203B270-1185-4274-AE4A-E57925FBE8C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStack.SnowflakeIdGenerator", "src\MyStack.SnowflakeIdGenerator\MyStack.SnowflakeIdGenerator.csproj", "{E203B270-1185-4274-AE4A-E57925FBE8C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B29AAC46-AE81-47D5-8F88-3EA4C18937A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F94F2A14-A001-46FD-BDFC-84808F4D4A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStack.SnowflakeIdGenerator.UnitTest", "tests\MyStack.SnowflakeIdGenerator.UnitTest\MyStack.SnowflakeIdGenerator.UnitTest.csproj", "{7AD8D658-B527-4C61-9D7B-715A8176A7E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +21,16 @@ Global
 		{E203B270-1185-4274-AE4A-E57925FBE8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E203B270-1185-4274-AE4A-E57925FBE8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E203B270-1185-4274-AE4A-E57925FBE8C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD8D658-B527-4C61-9D7B-715A8176A7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD8D658-B527-4C61-9D7B-715A8176A7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD8D658-B527-4C61-9D7B-715A8176A7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD8D658-B527-4C61-9D7B-715A8176A7E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E203B270-1185-4274-AE4A-E57925FBE8C3} = {B29AAC46-AE81-47D5-8F88-3EA4C18937A3}
+		{7AD8D658-B527-4C61-9D7B-715A8176A7E7} = {F94F2A14-A001-46FD-BDFC-84808F4D4A9D}
 	EndGlobalSection
 EndGlobal
