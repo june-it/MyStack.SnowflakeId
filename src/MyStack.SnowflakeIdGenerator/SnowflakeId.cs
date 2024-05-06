@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Options;
 using System;
 
-namespace MyStack.SnowflakeIdGenerator
+namespace Microsoft.Extensions.SnowflakeIdGenerator
 {
     public class SnowflakeId : ISnowflakeId
     {

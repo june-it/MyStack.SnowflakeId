@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
+using Microsoft.Extensions.SnowflakeIdGenerator;
 using System.Collections.Concurrent;
 
 namespace MyStack.SnowflakeIdGenerator.UnitTest

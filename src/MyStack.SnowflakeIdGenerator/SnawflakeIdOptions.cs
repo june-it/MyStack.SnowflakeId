@@ -1,4 +1,4 @@
-﻿namespace MyStack.SnowflakeIdGenerator
+﻿namespace Microsoft.Extensions.SnowflakeIdGenerator
 {
     public class SnawflakeIdOptions
     {
