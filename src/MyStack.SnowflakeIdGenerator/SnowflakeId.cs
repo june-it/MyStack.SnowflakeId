@@ -6,7 +6,7 @@ namespace Microsoft.Extensions.SnowflakeIdGenerator
     public class SnowflakeId : ISnowflakeId
     {
         // The timestamp of the start time
-        private const long _twepoch = 691171200000L;
+        private const long _twepoch = 1288834974657L;
         // The bits of Machine ID
         private const int _machineIdBits = 5;
         // The bits of Group ID
@@ -50,10 +50,7 @@ namespace Microsoft.Extensions.SnowflakeIdGenerator
         }
         public long GroupId { get; }
         public long MachineId { get; }
-        /// <summary>
-        /// Generate a new Id
-        /// </summary>
-        /// <returns></returns>
+        
         public long NewId()
         {
             lock (this)

@@ -1,2 +1,2 @@
 # MyStack.SnowflakeId
-Open source snowflake ID generation library
+开源的轻量级生成雪花Id

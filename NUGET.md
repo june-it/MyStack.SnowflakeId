@@ -1,3 +1,3 @@
 # MyStack.SnowflakeIdGenerator
 
-This package provides the APIs for using snowflake ID generation library
+开源的轻量级生成雪花Id
