@@ -1,14 +1,14 @@
 ﻿namespace Microsoft.Extensions.SnowflakeIdGenerator
 {
     /// <summary>
-    /// 表示雪花Id接口
+    /// Represents the Snowflake ID interface
     /// </summary>
     public interface ISnowflakeId
     {
         /// <summary>
-        /// 生成一个新的Id
+        /// Generates a new ID
         /// </summary>
-        /// <returns>返回long类型的雪花Id</returns>
+        /// <returns>Returns a long type Snowflake ID</returns>
         long NewId();
     }
 }
